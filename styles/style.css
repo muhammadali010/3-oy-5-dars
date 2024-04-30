@@ -28,6 +28,10 @@ select {
     display: flex;
 }
 
+select:hover{
+cursor: pointer;
+}
+
 form {
     display: flex;
 }
@@ -42,6 +46,10 @@ form {
     font-weight: 500;
     line-height: 24px;
     color: #405741;
+}
+.nav p:hover{
+cursor: pointer;
+color: #059391;
 }
 
 .select1 {
@@ -103,12 +111,13 @@ form {
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
-    transition: all 2s;
+    transition: all 1.3s;
 }
 
 .kattarasm button:hover {
     cursor: pointer;
     background-color: #36893b;
+    transform: scale(105%);
 }
 
 .images {
@@ -124,7 +133,7 @@ form {
     background-color: #FFEEF4;
     border-radius: 8px;
     padding: 8px, 16px, 8px, 16px;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .card2 {
@@ -133,7 +142,7 @@ form {
     background-color: #E8FBFF;
     border-radius: 8px;
     padding: 8px, 16px, 8px, 16px;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .card3 {
@@ -142,7 +151,7 @@ form {
     background-color: #E5FFF1;
     border-radius: 8px;
     padding: 8px, 16px, 8px, 16px;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .card4 {
@@ -151,7 +160,7 @@ form {
     background-color: #EFEFFE;
     border-radius: 8px;
     padding: 8px, 16px, 8px, 16px;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .images img {
@@ -276,21 +285,25 @@ form {
 }
 
 .card1:hover {
+    transform: scale(105%);
     cursor: pointer;
     background-color: #edfbff;
 }
 
 .card2:hover {
     cursor: pointer;
+    transform: scale(105%);
     background-color: #ededed;
 }
 
 .card3:hover {
+    transform: scale(105%);
     cursor: pointer;
     background-color: #ededed;
 }
 
 .card4:hover {
+    transform: scale(105%);
     cursor: pointer;
     background-color: #c2c4c5;
 }
@@ -320,6 +333,7 @@ form {
     border-radius: 16px 0px 0px 0px;
     border: 1px solid #f2f3f5;
     opacity: 0px;
+    transition: all 1s;
 }
 
 .cardd2 {
@@ -329,6 +343,12 @@ form {
     border-radius: 16px 0px 0px 0px;
     border: 1px solid #f2f3f5;
     opacity: 0px;
+    transition: all 1s;
+}
+
+.cardd1:hover {
+    cursor: pointer;
+    transform: scale(105%);
 }
 
 .cardd3 {
@@ -338,6 +358,7 @@ form {
     border-radius: 16px 0px 0px 0px;
     border: 1px solid #f2f3f5;
     opacity: 0px;
+    transition: all 1s;
 }
 
 .cardd4 {
@@ -347,6 +368,22 @@ form {
     border-radius: 16px 0px 0px 0px;
     border: 1px solid #f2f3f5;
     opacity: 0px;
+    transition: all 1s;
+}
+
+.cardd2:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+.cardd3:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+.cardd4:hover {
+    cursor: pointer;
+    transform: scale(105%);
 }
 
 .cardlar {
@@ -392,6 +429,7 @@ form {
     transition: all 1.5s;
     background-color: #405741;
     color: #fff;
+    transition: all 1s;
 }
 
 .cardlar button:hover {
@@ -399,6 +437,7 @@ form {
     background-color: #36893b;
     color: #121216;
     font-size: 19px;
+    transform: scale(105%);
     line-height: 27px;
 }
 
